@@ -1,0 +1,148 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, what may i assist you in ",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "blocks",
+        "patterns":[
+            "how many buildings are there",
+            "how many blocks are there"
+            
+        ],
+        "responses":[
+            "we have 9 buildings",
+            " we have 7 blocks and 2 hostel"
+        ]
+      },
+      {
+        "tag":"hostel",
+        "patterns":[
+            "do you have hostel",
+            "what is the name of boys hostel",
+            "what is the name of girls hostel",
+            "where is the boys hostel",
+            "where is the girls hostel"
+
+        ],
+        "responses":[
+            " we have two hostel(one for boys and one for girls",
+            "the name of boys hostel is KE HALl",
+            "the name of girls hostel is Jonas hall",
+            "boys hostel is in left to 4 th block",
+            "girls hostel is in front of 5 th block"
+
+
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Thank for your help"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "I hope you liked the campus, hope to see u soon"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "thank you for your help"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "food",
+        "patterns":[
+            "I am hungry",
+            "what are the options for food",
+            "i want to have something to eat",
+            "where is the nearest food option",
+            "is there any canteen",
+            "i want to have a snack"
+        ],
+        "responses":
+        [
+            "we have one canteen in ground floor of central block. We have a canteen in basement of R and D block. There are food option near basketball court, baseball court and in front of block 1 and block 3",
+            "you can have snack at nandini which is near to basketball court"
+            
+
+        ]
+      },
+      {
+        "tag": "central block",
+        "patterns":[
+            "i am standing in front of gate no 1 and i want to go to central block",
+            "i am standing in front of gate no 4 and i want to go to central block",
+            "i am standing in front of gate no 5 and i want to go to central block"
+        ],
+        "responses":[
+            "from gate no 1, move straight and in write you will see central bloack",
+            "from gate no 4, take a right until you see a building which is named r and b block, go straight for a while and you will reach central block",
+            "from gate no 5 move straight for a while and you will reach central campus "
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
