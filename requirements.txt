@@ -2,3 +2,4 @@ Werkzeug==2.2.2
 flask
 torch
 nltk
+numpy
