@@ -98,7 +98,7 @@ print(xy)
 
 
 # API endpoint for chatbot
-@app.route('/chat', methods=['POST'])
+@app.route('/chat', methods=['POST', 'GET'])
 def chat():
     try:
         sentence=request.get_json()
