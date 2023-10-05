@@ -1,8 +1,8 @@
 import requests
 
 # Define the API endpoint URL
-# url = "http://localhost:5000/chat"
-url = "https://symphonious-crisp-56c412.netlify.app/chat"
+url = "http://localhost:3000/chat"
+# url = "https://symphonious-crisp-56c412.netlify.app/chat"
 
 
 # Prepare the request data as a dictionary
