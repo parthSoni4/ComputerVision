@@ -96,6 +96,9 @@ print(all_words)
 print(xy)
 
 
+@app.route("/")
+def hello():
+    return "Hello"
 
 # API endpoint for chatbot
 @app.route('/chat', methods=['POST', 'GET'])
